@@ -1,0 +1,97 @@
+@font-face {
+    font-family:  "outer-frontier";
+    src: url("outer-frontier.regular.ttf");}
+@font-face {
+    font-family:"comic crayon demo" ;
+    src: url("ComicCrayonDemoRegular.ttf");
+}  
+
+body {
+    background-image:url("galaxybg.gif");
+    /* background-size: cover; */
+    /* padding: 0 10px 150px 10; */
+    background-size: 90rem 50.25rem;
+    /* height: 100%; */
+    
+}
+
+i {
+    color: rgb(54, 122, 211);
+    width: 16px;
+    height: 16px;
+
+}
+
+.head{
+    display: flex;
+    margin-left:0px;
+    margin-top: 5px;
+    /* border: 1px solid purple; */
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.logo{
+    margin-top: 0px;
+    padding-left: 16px;
+    /* margin-left: 170px;   */
+    
+
+}
+
+.logo h2 {
+    margin-left: 0px;
+}
+
+.logo img {
+       width: 400px; 
+       height:80px;
+       margin-left: 30px;
+}
+
+#uni {
+     color: hwb(209 42% 13%);
+    font-family: "outer-frontier";
+    text-align:center ;
+    font-size: xx-large;
+    margin-top:0px;
+}
+
+    
+
+
+
+
+#btn{
+    font-family:outer-frontier ;
+    font-size: xx-large;
+    padding: auto;
+    color:rgb(247, 73, 5)
+
+    
+    
+}
+
+#comic{
+    /* font-family:"comic crayon demo"; */
+    /* font-size: xx-large; */
+    color:gold;
+    text-decoration-line: underline;
+}
+
+    
+.hero {
+
+    text-align: center;
+    /* padding: 10px 0 40px 0; */
+    color:goldenrod;
+    font-family:"outer-frontier";
+    font-size: xx-large ;
+    text-indent: 50px;
+    margin-top: 25%;
+    
+
+    
+}
+
