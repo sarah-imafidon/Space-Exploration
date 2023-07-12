@@ -37,9 +37,9 @@ body {
 .header i { 
    margin-top: 1rem;
     color: rgb(54, 122, 211);
-    height: 80px;
+    height: 60px;
     flex-basis: 10%;
-    margin-right: 2rem;
+   margin-right: 1rem;
 
 }
 
@@ -47,9 +47,9 @@ body {
     
 .header img{
     
-    flex-basis: 60%;
-   width:350px;
-   height: 80px;
+   flex-basis: 60%;
+   width: 200px;
+   height: 60px;
 
     
 
@@ -58,11 +58,12 @@ body {
 .header h2 {
    color: hwb(209 48% 3%);
    font-family: "outer-frontier";
-   font-size: x-large;
-   flex-basis: 100%;
+   font-size: medium;
+   flex-basis: 80%;
    margin-top: 0;
-   margin-left: 30px;
+   margin-left: 50px;
 }
+
 
 button{
     font-family:"outer-frontier" ;
@@ -133,7 +134,7 @@ button:hover{
 }
 @media (min-width: 950px) {
     .header i{
-        margin-right: 0;
+       flex-basis: 5%;
     }
     .header img{
         width: 500px;
@@ -141,7 +142,7 @@ button:hover{
     .header h2{
         flex-basis: 80%;
         font-size: xx-large;
-        margin-left: 50px;
+        margin-left: 30px;
         
     }
     
